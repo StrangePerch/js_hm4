@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>
+    pow (
+    value: <input onchange="CalculatePower()" id="pow_value" type="text" style="width: 60px">,
+     power: <input onchange="CalculatePower()" id="pow_power" type="text" style="width: 30px">
+    ) = 
+    <span id="pow_output"></span>
+</label>
+<hr/>
+<label>
+    Greatest common factor (
+    value1: <input onchange="CalculateFactor()" id="gcf_value1" type="text" style="width: 60px">,
+    value2: <input onchange="CalculateFactor()" id="gcf_value2" type="text" style="width: 60px">
+    ) =
+    <span id="gcf_output"></span>
+</label>
+<hr/>
+<label>
+    Greatest digit in number (
+    number: <input onchange="FindMaxDigit()" id="fmd_number" type="text" style="width: 60px"> 
+    ) =
+    <span id="fmd_output"></span>
+</label>
+
+<hr/>
+<label>
+    IsPrime? (
+    number: <input onchange="CheckIsPrime()" id="prime_number" type="text" style="width: 60px">
+    ) =
+    <span id="prime_output"></span>
+</label>
+<hr/>
+<label>
+    All factors of number (
+    number: <input onchange="GetAllFactors()" id="factors_number" type="text" style="width: 60px">
+    ) =
+    <span id="factors_output"></span>
+</label>
+<hr/>
+<label>
+    Fibonacci (
+    n: <input onchange="GetFibonacci()" id="fibo_number" type="text" style="width: 60px">
+    ) =
+    <span id="fibo_output"></span>
+</label>
+
+<script type="text/javascript" src="code.js"></script>
+</body>
+</html>
